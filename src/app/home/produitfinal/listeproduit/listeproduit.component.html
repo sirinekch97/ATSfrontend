@@ -1,0 +1,57 @@
+<div class="chute chute-center">
+
+    <div class="row">
+    <div class="col-xs-12">
+    <div class="panel">
+    <div class="panel-heading">
+    <span class="panel-title hidden-xs"> Product status</span>
+    </div>
+    <div class="panel-body pn">
+    <div class="table-responsive">
+    <table class="table allcp-form theme-warning tc-checkbox-1 fs13">
+    <thead>
+    <tr class="bg-light">
+    <th class="text-center"></th>
+    
+    <th class="">Product Name</th>
+    <th class="">catégory</th>
+    <th class="">imageUrl </th>
+    <th class=""></th>
+    <th class="text-right"></th>
+    <th class="text-right"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor='let i of tab'>
+    <td class="text-center">
+    <label class="option block mn">
+    <input type="checkbox" name="i" value="FR">
+    <span class="checkbox mn"></span>
+    </label>
+    </td>
+    
+    <td class="">{{i.ProductName}}</td>
+    <td class="">{{i.Category}}</td>
+    <td class="">{{i.ImageUrl}}</td>
+    <td class=""></td>
+    <td ></td>
+       <td ></td>
+
+    </tr>
+
+    </tbody>
+    </table>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+ </div>   
+  
+    
+
+
+
+
+

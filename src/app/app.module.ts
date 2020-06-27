@@ -17,7 +17,7 @@ import{ HttpClientModule} from '@angular/common/http';
     FooterComponent,
     SidebarComponent,
     HeaderComponent,
-    LayoutComponent
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
