@@ -14,10 +14,10 @@ export class ProductserviceService {
   getallprod(){
     return this.http.get(this.baseURL+'/Products/findall');
   }
-  getdetailprod(){
-    return this.http.get(this.baseURL+'/Products/find');
+  getdetailprod(_id : string){
+    return this.http.get(this.baseURL+'/Products/find/'+_id);
   }
 
 
-  
+
 }
