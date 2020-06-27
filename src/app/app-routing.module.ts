@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import{HomeComponent} from './home/home.component'
 
 
-const routes: Routes = [{path:'',component:HomeComponent,children:[{path:'product',loadChildren:'./home/produitfina/produitfinal.module#ProduitfinalModule'}]}];
+const routes: Routes = [{path:'',component:HomeComponent,children:[{path:'product',loadChildren:'./home/produitfinal/produitfinal.module#ProduitfinalModule'}]}];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
